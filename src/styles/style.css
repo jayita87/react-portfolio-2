@@ -1,0 +1,140 @@
+h3 {
+    font-family: monospace;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  
+  .content {
+    padding: 0 20px 60px;
+    font-family: "Oswald", sans-serif;
+    }
+  
+  .project-link {
+    font-size: 1.3rem;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    font-family: 'Acme';
+  }
+  
+  .space-above {
+    padding-top: 10px;
+  }
+  
+  .space-below {
+    padding-bottom: 20px;
+  }
+  
+  .image {
+    border: 5px solid linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    border-radius: 3px;
+    opacity: 1;
+    width: 170px;
+  }
+  
+  .image :hover {
+    opacity: 0.5;
+  }
+  
+  .one-project {
+    width: 90%;
+    margin-bottom: 5px;
+  }
+  
+  .icon {
+    padding: 20px;
+  }
+  
+  .title {
+    display: block;
+    text-align: center;
+  }
+  
+  .bio {
+    flex-grow: 1;
+    min-width: 300px;
+    max-width: 800px;
+    margin-top: 20px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    color: #F1FAEE;
+  }
+  
+  .hero {
+    background-image: linear-gradient( 109.6deg,  rgba(48,207,208,1) 11.2%, rgba(51,8,103,1) 92.5% );
+   /* background-image: url("cool-background.png"); */
+   /* animation-timing-function:  */
+    color: #F1FAEE;
+    padding: 2px 0 18px;
+    border: none;
+    margin: none;
+  }
+  
+  .nav {
+    /* background: #1d3557; */
+    /* background-image: linear-gradient( 138deg,  rgba(32,201,255,1) 36.7%, rgba(0,8,187,1) 84.4%, rgba(255,255,255,1) 119.7% ); */
+    background-image: linear-gradient( 109.6deg,  rgba(48,207,208,1) 11.2%, rgba(51,8,103,1) 92.5% );
+    color: #F1FAEE;
+    padding: 10px 10px 0px 10px;
+    display: flex;
+  }
+  
+  .active {
+    background-color: #E8F1F2;
+  }
+  .button1{
+    background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 20px 30px 20px;
+    white-space: nowrap; 
+  }
+  .button {
+    background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 2px 20px 2px;
+    white-space: nowrap;
+  }
+  
+  #button {
+    background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 2px 20px 2px;
+  
+  }
+  
+  #root {
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  }
+  
+  #h2 {
+    padding: 70px 0 10px 0; 
+    white-space: nowrap;
+    text-align: left;
+    color: #457b9d;
+    font-size: 40px;
+    font-family: Acme;
+  }
+  
+  #resume {
+    margin: 10px 0px;
+  }
+  /* .content {
+    background-image: url("../assets/cool-background.png");
+  } */
+  
+  @media only screen and (min-width: 950px) {
+    .content {
+      padding: 0 150px 60px;
+      width: 80%;
+    }
+  }
+
+  
