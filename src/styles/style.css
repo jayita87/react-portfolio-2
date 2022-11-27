@@ -11,7 +11,7 @@ h3 {
   
   .project-link {
     font-size: 1.3rem;
-    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    background: linear-gradient(90deg, rgb(242, 246, 247) 0%, #b4baf5 100%);
     font-family: 'Acme';
   }
   
@@ -126,9 +126,6 @@ h3 {
   #resume {
     margin: 10px 0px;
   }
-  /* .content {
-    background-image: url("../assets/cool-background.png");
-  } */
   
   @media only screen and (min-width: 950px) {
     .content {
