@@ -9,7 +9,7 @@ import profile2 from '../../assets/cryptoinfo.png';
 import profile3 from '../../assets/notetaker.png';
 import profile4 from '../../assets/weatherapp.png';
 import profile5 from '../../assets/techblog.png';
-import profile6 from '../../assets/workdaysch.png';
+import profile6 from '../../assets/project 3.png';
 
 export default function Portfolio() {
     return (
@@ -76,13 +76,13 @@ export default function Portfolio() {
               <Project
                 key = "6"
                 img = {profile6}  
-                imgAlt = "work-day-scheduler"
-                project = "https://jayita87.github.io/work-day-scheduler/"
-                projectAlt = "work-day-scheduler"
-                projectTitle = "Work-Day-Scheduler"
-                gitHubRepo = "https://github.com/jayita87/work-day-scheduler"
+                imgAlt = "Counting Sheep"
+                project = "https://radiant-chamber-76949.herokuapp.com/"
+                projectAlt = "Sleep tracking app"
+                projectTitle = "Counting Sheep"
+                gitHubRepo = "https://github.com/MattG-Git/counting_sheep"
                 gitHubAlt = "GitHub link"
-                description = "Build with JavaScript, HTML, CSS, JQuery" />
+                description = "Build with GraphQL, React, CSS, node.js, MongoDB, Mongoose ODM " />
             </div> 
           </div>
         </div>
